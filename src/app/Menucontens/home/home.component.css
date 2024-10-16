@@ -13,4 +13,19 @@
     fill: #86C7ED; /* Change color on hover */
     transform: scale(1.2); /* Slightly enlarge the icon */
   }
+  .navss {
+    display: inline-block; /* Ensures the link is treated as a block to accommodate padding and border */
+    padding: 10px 15px; /* Adjust padding to control the size of the box */
+    border: 2px solid white; /* Black border around the text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 0px; /* Keeps the corners square; you can adjust if you want rounded corners */
+    color: white; /* Text color */
+    font-weight: bold; /* Optional: Makes the text bold */
+}
+
+.navss:hover {
+    background-color: black; /* Change background on hover */
+    color: #fff; /* Change text color on hover */
+}
+
   

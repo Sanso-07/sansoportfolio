@@ -1,15 +1,16 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-  title1: string = "Hello I'm SansoSowmi.";
-  title2: string = "Software Developer.";
+  title1: string = "SansoSowmi";
+  title2: string = "Software Developer";
   description: string = '"I value clarity, empathy, and integrity above all else. These ideals guide my approach to problem solving and life in general."';
   imageUrl: string = "../../../assets/Image/rajuimage.png";
   altText: string = "A Digital Agency Specialized in AI and Web 3.0";
